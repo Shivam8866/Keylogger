@@ -21,33 +21,27 @@ This is a simple keylogger written in Python using the `pynput` library. It logs
 
 Install the required package:
 
-```bash
+```
 pip install pynput
 ```
 Log File Location
 The log file is saved to:
-
-bash
-Copy
-Edit
+```
 D:/keylogger/log/keylog.txt
+```
 Ensure the directory exists before running the script, or update the log_file variable in the code:
-
-python
-Copy
-Edit
+```
 log_file = "D:/keylogger/log/"
+```
 Usage
 Clone or download the script.
 
 Update the path to your desired log folder.
 
 Run the script:
-
-bash
-Copy
-Edit
+```
 python keylogger.py
+```
 The keylogger will start in the background and log every key press to the specified file.
 
 Stopping the Logger
